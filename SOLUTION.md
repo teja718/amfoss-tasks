@@ -13,4 +13,5 @@ git commit -m "message"- to record the changes in the repository with a message
 git push - to uplaod the changes
 git satus-show the satus of all directories
 git log - to view commit logs
+![Screenshot](codes/screenshot.png)
 
