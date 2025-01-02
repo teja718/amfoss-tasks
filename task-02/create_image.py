@@ -1,20 +1,11 @@
 from PIL import Image, ImageDraw, ImageFont
-
-# Create a new image with white background
 img = Image.new('RGB', (200, 50), color=(255, 255, 255))
-
-# Initialize the drawing context
+# above line is to generate white background and these numbers are pixels
 d = ImageDraw.Draw(img)
-
-# Use a large basic font
-try:
-    font = ImageFont.truetype("arial", 40)
-except IOError:
-    font = ImageFont.load_default()
-
-# Draw the text "2 + 2" on the image
+# this line is to intilize drawing
+font = ImageFont.truetype("DejaVuSans-Bold.ttf", 40) 
+# this line is to give the font 
 d.text((50, 5), "2 + 2", fill=(0, 0, 0), font=font)
-
-# Save the image
-img.save("/home/teja/Documents/2+2.png")
-
+# this line is to draw 2+2 text on the image 
+img.save("/home/teja/Documents/2_plus_2.png")
+# this line is to save the image 
