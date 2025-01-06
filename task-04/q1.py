@@ -12,14 +12,14 @@ for num in a:
         f1[num]+=1
     else:
         f1[num]=1
-print(f1)        
+      
 f2={}
 for num in b:
     if num in f2:
         f2[num]+=1
     else:
         f2[num]=1
-print(f2)
+
 for i in f2:
     for i in f1:
         if f2[i]!=f1[i]:
