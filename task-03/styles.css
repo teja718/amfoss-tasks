@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-family: "Indie Flower";
+  font-size: 5rem;
+  color: #DBEDF3;
+  text-shadow: 3px 0 #DA0463;
+
+
+}
+
+.w {box-shadow: 10px 5px 5px rgb(7, 7, 7);
+  font-family: "Audiowide"; 
+}
+
+.a {box-shadow: 10px 5px 5px rgb(7, 7, 7);
+  font-family: "Sofia";
+
+}
+
+.s {box-shadow: 10px 5px 5px rgb(7, 7, 7);
+  font-family: "Trirong";
+
+}
+
+.d {box-shadow: 10px 5px 5px rgb(7, 7, 7);
+  font-family: "Aboreto";
+
+}
+
+.j {
+  box-shadow: 10px 5px 5px rgb(7, 7, 7);
+  font-family: "Dancing Script";
+}
+
+.k {box-shadow: 10px 5px 5px rgb(7, 7, 7);
+  font-family: "Pacifico";
+
+}
+
+.l {box-shadow: 10px 5px 5px rgb(7, 7, 7);
+  font-family: "Caveat";
+
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(252, 251, 251);
+}
+
+.w {background-color:#04AA6D;}
+.a {background-color:#008CBA;}
+.s {background-color:#f44336;}
+.d {background-color:#555555;}
+.j {background-color:#00ff00;}
+.k {background-color:#cc0099;}
+.l {background-color:#993333;}
